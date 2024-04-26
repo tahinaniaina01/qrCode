@@ -1,0 +1,1526 @@
+CRITICAL - 2024-04-23 06:55:05 --> Error: Class "App\Controllers\BibliothequeBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 06:57:47 --> Error: Class "App\Controllers\BibliothequeBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 06:59:30 --> ErrorException: Undefined array key "nom_de_colonne"
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Views/Biblio/view.php on line 9.
+ 1 APPPATH/Views/Biblio/view.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/mit/Site/framework/app/Views/Biblio/view.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Biblio.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:07:09 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:08:14 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:02 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:03 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:03 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:04 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:04 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:04 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:04 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:27 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:28 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:28 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:29 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:29 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:29 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:29 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:29 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:30 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:30 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:30 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:30 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:30 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:31 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:31 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:31 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:31 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:31 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:32 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:10:32 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:40 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:41 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:42 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:42 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:42 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:42 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:42 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:43 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:43 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:11:45 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:12 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:13 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:14 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:14 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:15 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:15 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:15 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:15 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:15 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:16 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:16 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:16 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:16 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:16 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:17 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:17 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:17 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:17 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:14:17 --> Error: Class "App\Models\Biblio\BiblioBD" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Utilisateur()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:15:58 --> Error: Class "App\Models\Biblio\BaseController" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 9.
+ 1 SYSTEMPATH/Router/AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH/Router/Router.php(562): CodeIgniter\Router\AutoRouter->getRoute()
+ 3 SYSTEMPATH/Router/Router.php(227): CodeIgniter\Router\Router->autoRoute()
+ 4 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:17:17 --> Error: Class "App\Models\Biblio\BaseController" not found
+[Method: GET, Route: Biblio/Utilisateur]
+in APPPATH/Controllers/Biblio.php on line 9.
+ 1 SYSTEMPATH/Router/AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH/Router/Router.php(562): CodeIgniter\Router\AutoRouter->getRoute()
+ 3 SYSTEMPATH/Router/Router.php(227): CodeIgniter\Router\Router->autoRoute()
+ 4 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:27:44 --> ErrorException: Undefined array key "nomUtilisateur"
+[Method: GET, Route: Biblio/Authentification/Register]
+in APPPATH/Views/Biblio/Authentification/Auth.php on line 5.
+ 1 APPPATH/Views/Biblio/Authentification/Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/mit/Site/framework/app/Views/Biblio/Authentification/Auth.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Biblio.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Authentification()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:28:32 --> ErrorException: Undefined array key "nomUtilisateur"
+[Method: GET, Route: Biblio/Authentification/Login]
+in APPPATH/Views/Biblio/Authentification/Auth.php on line 5.
+ 1 APPPATH/Views/Biblio/Authentification/Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/mit/Site/framework/app/Views/Biblio/Authentification/Auth.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Biblio.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Authentification()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:52:22 --> ErrorException: Undefined array key "nomUtilisateur"
+[Method: GET, Route: Biblio/Authentification/Login]
+in APPPATH/Views/Biblio/Authentification/Auth.php on line 5.
+ 1 APPPATH/Views/Biblio/Authentification/Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/mit/Site/framework/app/Views/Biblio/Authentification/Auth.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Biblio.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Authentification()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 07:53:03 --> ErrorException: Undefined array key "nomUtilisateur"
+[Method: GET, Route: Biblio/Authentification/Register]
+in APPPATH/Views/Biblio/Authentification/Auth.php on line 5.
+ 1 APPPATH/Views/Biblio/Authentification/Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/mit/Site/framework/app/Views/Biblio/Authentification/Auth.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Biblio.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Authentification()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:11:58 --> ErrorException: Undefined variable $request
+[Method: POST, Route: Biblio/Inscription]
+in APPPATH/Controllers/Biblio.php on line 28.
+ 1 APPPATH/Controllers/Biblio.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:12:15 --> Error: Undefined constant "App\Controllers\request"
+[Method: POST, Route: Biblio/Inscription]
+in APPPATH/Controllers/Biblio.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:14:58 --> Error: Undefined constant "App\Controllers\request"
+[Method: POST, Route: Biblio/Inscription]
+in APPPATH/Controllers/Biblio.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:15:11 --> ErrorException: Undefined variable $request
+[Method: POST, Route: Biblio/Inscription]
+in APPPATH/Controllers/Biblio.php on line 28.
+ 1 APPPATH/Controllers/Biblio.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:16:20 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/BibliothequeBD.php(17): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(46): App\Models\BibliothequeBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:17:52 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/Biblio.php(47): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:18:08 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/Biblio.php(47): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:20:20 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/BibliothequeBD.php(17): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(46): App\Models\BibliothequeBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:24:39 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/BibliothequeBD.php(17): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:25:10 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/BibliothequeBD.php(17): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:26:05 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/BibliothequeBD.php(17): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:31:27 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\insertBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/insertBD.php(14): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\insertBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:31:45 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\insertBD"
+[Method: POST, Route: Biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/insertBD.php(14): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\insertBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:38:01 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\insertBD"
+[Method: POST, Route: biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/insertBD.php(14): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\insertBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:49:42 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\insertBD"
+[Method: POST, Route: biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/insertBD.php(14): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\insertBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:50:16 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\BibliothequeBD"
+[Method: POST, Route: biblio/Inscription]
+in SYSTEMPATH/Model.php on line 813.
+ 1 SYSTEMPATH/Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/BibliothequeBD.php(19): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 08:53:53 --> mysqli_sql_exception: Duplicate entry 'GaGa' for key 'Personne.Nom_utilisateur' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/BibliothequeBD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 08:53:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'GaGa' for key 'Personne.Nom_utilisateur'
+[Method: POST, Route: biblio/Inscription]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/BibliothequeBD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:53:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'GaGa' for key 'Personne.Nom_utilisateur'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/BibliothequeBD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 08:53:53 --> [Caused by] mysqli_sql_exception: Duplicate entry 'GaGa' for key 'Personne.Nom_utilisateur'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/BibliothequeBD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Biblio.php(38): App\Models\BibliothequeBD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Biblio->Inscription()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:35:44 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:37:21 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:38:35 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:38:55 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:40:08 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:40:46 --> ErrorException: Undefined array key "Nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:40:51 --> ErrorException: Undefined array key "Nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:41:14 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:41:33 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 09:41:56 --> mysqli_sql_exception: Unknown column 'Naissance' in 'field list' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 09:41:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+[Method: POST, Route: Etudiant/enregistrement]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:41:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:41:56 --> [Caused by] mysqli_sql_exception: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 09:42:43 --> mysqli_sql_exception: Unknown column 'Naissance' in 'field list' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 09:42:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+[Method: POST, Route: Etudiant/enregistrement]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:42:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:42:43 --> [Caused by] mysqli_sql_exception: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 09:45:51 --> mysqli_sql_exception: Unknown column 'Naissance' in 'field list' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 09:45:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+[Method: POST, Route: Etudiant/enregistrement]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:45:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:45:51 --> [Caused by] mysqli_sql_exception: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:47:44 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 23.
+ 1 APPPATH/Controllers/Etudiant.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 09:47:57 --> mysqli_sql_exception: Unknown column 'Naissance' in 'field list' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 09:47:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+[Method: POST, Route: Etudiant/enregistrement]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:47:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:47:57 --> [Caused by] mysqli_sql_exception: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 09:49:32 --> mysqli_sql_exception: Unknown column 'Naissance' in 'field list' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 09:49:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+[Method: POST, Route: Etudiant/enregistrement]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:49:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:49:32 --> [Caused by] mysqli_sql_exception: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:50:26 --> ErrorException: Undefined array key "date"
+[Method: POST, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 25.
+ 1 APPPATH/Controllers/Etudiant.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:51:45 --> ErrorException: Undefined array key "dateNaissance"
+[Method: POST, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 25.
+ 1 APPPATH/Controllers/Etudiant.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:52:56 --> ErrorException: Undefined array key "dateNaissance"
+[Method: POST, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 25.
+ 1 APPPATH/Controllers/Etudiant.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:53:56 --> ErrorException: Undefined array key "dateNaissance"
+[Method: POST, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 25.
+ 1 APPPATH/Controllers/Etudiant.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:54:39 --> ErrorException: Undefined array key "dateNaissance"
+[Method: POST, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 25.
+ 1 APPPATH/Controllers/Etudiant.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:55:02 --> ErrorException: Undefined array key "dateNaissance"
+[Method: POST, Route: Etudiant/enregistrement]
+in APPPATH/Controllers/Etudiant.php on line 25.
+ 1 APPPATH/Controllers/Etudiant.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 09:55:27 --> mysqli_sql_exception: Unknown column 'Naissance' in 'field list' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 09:55:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+[Method: POST, Route: Etudiant/enregistrement]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:55:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:55:27 --> [Caused by] mysqli_sql_exception: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-04-23 09:56:52 --> mysqli_sql_exception: Unknown column 'Naissance' in 'field list' in /home/mit/Site/framework/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/mit/Site/framework/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/mit/Site/framework/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mit/Site/framework/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mit/Site/framework/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mit/Site/framework/system/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/mit/Site/framework/system/BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 /home/mit/Site/framework/system/Model.php(791): CodeIgniter\BaseModel->insert()
+#7 /home/mit/Site/framework/app/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+#8 /home/mit/Site/framework/app/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+#9 /home/mit/Site/framework/system/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+#10 /home/mit/Site/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/mit/Site/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/mit/Site/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /home/mit/Site/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/mit/Site/framework/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+CRITICAL - 2024-04-23 09:56:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+[Method: POST, Route: Etudiant/enregistrement]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:56:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-23 09:56:52 --> [Caused by] mysqli_sql_exception: Unknown column 'Naissance' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/EtudiantBDD.php(19): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Etudiant.php(32): App\Models\EtudiantBDD->insertData()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Etudiant->enregistrement()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
