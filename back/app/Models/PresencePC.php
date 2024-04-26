@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class presencePcBDD extends Model
+class PresencePc extends Model
 {
     protected $table = 'presence_pc_portable';
     protected $primarykey = 'id';
