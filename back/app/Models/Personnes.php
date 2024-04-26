@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class personnesBDD extends Model
+class Personnes extends Model
 {
     protected $table = 'personnes';
     protected $primarykey = 'id';
