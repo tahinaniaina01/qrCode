@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class inscriptionBDD extends Model
+class Inscription extends Model
 {
     protected $table = 'inscription';
     protected $primarykey = 'id';
