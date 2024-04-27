@@ -18,19 +18,17 @@ class Database extends Config
      * Lets you choose which connection group to use if no other is specified.
      */
     public string $defaultGroup = 'default';
-
     /**
      * The default database connection.
      *
      * @var array<string, mixed>
      */
-
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'mit',
         'password'     => '123456',
-        'database'     => 'bibliotheque',
+        'database'     => 'codeigniter',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -50,13 +48,12 @@ class Database extends Config
             'time'     => 'H:i:s',
         ],
     ];
-
-    public array $biblio = [
+	/*  public array $db = [
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'mit',
         'password'     => '123456',
-        'database'     => 'bibliotheque',
+        'database'     => 'codeigniter',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -75,7 +72,7 @@ class Database extends Config
             'datetime' => 'Y-m-d H:i:s',
             'time'     => 'H:i:s',
         ],
-    ];
+    ];*/
     //    /**
     //     * Sample database connection for SQLite3.
     //     *
