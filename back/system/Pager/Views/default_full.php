@@ -8,26 +8,6 @@ use CodeIgniter\Pager\PagerRenderer;
 $pager->setSurroundCount(2);
 ?>
 
-<style>
-	.pagination {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	a{
-		text-decoration: none;
-		color: black;
-		margin: 0 5px;
-
-		border: 1px solid orange;
-		padding: 10px;
-	}
-	ul{
-		list-style: none;	
-	}
-
-</style>
-
 <nav aria-label="<?= lang('Pager.pageNavigation') ?>">
 	<ul class="pagination">
 		<?php if ($pager->hasPrevious()) : ?>

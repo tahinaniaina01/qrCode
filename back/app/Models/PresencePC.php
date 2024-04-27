@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Models;
 
 use CodeIgniter\Model;
@@ -7,7 +8,7 @@ class PresencePC extends Model
 {
     protected $table = 'presence_pc_portable';
     protected $primarykey = 'id';
-    protected $allowedFields = ['id_pc_etudiant','date_operation', 'statut'];
+    protected $allowedFields = ['id_pc_etudiant','date_operation', 'status'];
 
     public function presencePC($mac, $statut)
     {
@@ -20,8 +21,9 @@ class PresencePC extends Model
         $query = $builder->get();
         $result = $query->getRowArray();
 
+        /** si vide */
         if (!$result) {
-            return false; // Aucun PC trouvé avec la MAC spécifiée
+            return false; 
         }
 
         $id_pc_etudiant = $result['id_pc'];
@@ -33,6 +35,6 @@ class PresencePC extends Model
         ];
         $builder->insert($data);
 
-        return true; // Opération réussie
+        return true; 
     }
 }
