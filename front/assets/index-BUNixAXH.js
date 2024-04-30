@@ -52,7 +52,7 @@
 })();
 
 // Configuration du scanner QR Code
-const serverUrl = "http://localhost:8888";
+const serverUrl = "https://www.qrcode.com/index.php/Projet";
 let role = "respo";
 const qrCodeScanner = new Html5QrcodeScanner("reader", { fps: 10, qrbox: 250 });
 qrCodeScanner.render(handleQrCodeScan);
@@ -70,11 +70,11 @@ async function handleQrCodeScan(qrCodeData) {
   let response;
   try {
     if (isMacAddress(cleanedData)) {
-      response = await sendRequest(`${serverUrl}/recupe_qrcode.php`, {
+      response = await sendRequest(`${serverUrl}/recupe_qrcode`, {
         mac: cleanedData,
       });
     } else if (isStudentId(cleanedData)) {
-      response = await sendRequest(`${serverUrl}/recupe_qrcode.php`, {
+      response = await sendRequest(`${serverUrl}/recupe_qrcode`, {
         id: cleanedData,
       });
     } else {
@@ -134,7 +134,7 @@ function showInvalidQrCode() {
   container.innerHTML = `
     <div class="presence-box">
       <div class="container-square">
-        <span class="square1"></span>
+        <span class="square1"></span>h
         <span class="square2"></span>
       </div>
       <h1>QRCODE INVALIDE</h1>
@@ -146,7 +146,7 @@ function showInvalidQrCode() {
 // Fonction pour afficher la réponse du serveur
 function displayResponse(response) {
   const container = document.querySelector(".container");
-  const { nom, prenom, grade, statut } = response;
+  const { nom, prenom, grade, statut, id } = response;
   if (statut === "impossible") {
     container.innerHTML = `
       <div class="presence-box">
@@ -165,7 +165,7 @@ function displayResponse(response) {
           <span class="square1"></span>
           <span class="square2"></span>
         </div>
-        <div class="container-image"></div>
+        <div class="container-image" style="background-image:url('https://www.qrcode.com/Images/${id}.jpg');"></div>
         <div class="container-information">
           <div class="container-info">
             <h3>Nom : ${nom}</h3>
@@ -184,12 +184,12 @@ async function handlePresenceClick(event, qrCodeData) {
   let response;
   const buttonText = event.currentTarget.innerText;
   if (buttonText === "Presence") {
-    response = await sendRequest(`${serverUrl}/Presence_etudiant.php`, {
+    response = await sendRequest(`${serverUrl}/Presence`, {
       state: buttonText,
       id: qrCodeData,
     });
   } else if (buttonText === "Retrait" || buttonText === "Remise") {
-    response = await sendRequest(`${serverUrl}/PresensePC.php`, {
+    response = await sendRequest(`${serverUrl}/PresencePC`, {
       state: buttonText,
       mac: qrCodeData,
     });
