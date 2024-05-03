@@ -23,7 +23,7 @@ class ListeEtudiant
         foreach ($pres as $line) {
             $nom[] = [
                 'nom' => $line['nom']. ' '. $line['prenoms'],
-                'grade' => $line['grade']. ' '. $line['niveau'],
+                'grade' => $line['grade']. $line['niveau'],
                 'id' => $this->statut($line['id_inscription'], $tri)
             ];
         }

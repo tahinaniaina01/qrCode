@@ -1,26 +1,30 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\Liste_etudiant;
-class Lister extends BaseController
+use App\Models\Liste_pc;
+class ListerPc extends BaseController
 {
     public function index(): string
     {
-        return view('Liste');
+        $list = new Liste_pc();
+        $reponse['tout'] = $list->List("");
+
+     //    print_r($reponse);
+        return view('ListPC',$reponse);
     }
-    public function Etudiant()
+    public function Machine()
     {
-           $list = new Liste_etudiant();
+           $list = new Liste_pc();
            $reponse['tout'] = $list->List("");
 
         //    print_r($reponse);
-           return view('Liste',$reponse);
+           return view('ListPC',$reponse);
     }
 
     public function search(){
             $grade = $this->request->getVar('grade');
             $cherche = $this->request->getVar('nom');
-            $list = new Liste_etudiant();
+            $list = new Liste_pc();
            $reponse= $list->List("");
            $retour =[];
            $tab = [];
@@ -43,16 +47,16 @@ class Lister extends BaseController
             }
 
 
-             return view('Liste',['tout'=>$tab]);
+             return view('ListPC',['tout'=>$tab]);
     }
 
     public function Trier(){
         $tri = $_POST['date'];
       //  print_r($tri);
-        $list = new Liste_etudiant();
+        $list = new Liste_pc();
         $reponse= $list->List($tri);
         $retour =[];
        
-        return view('Liste',['tout'=>$reponse]); 
+        return view('ListPC',['tout'=>$reponse]); 
     }
 }

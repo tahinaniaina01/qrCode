@@ -93,59 +93,98 @@
     <form action="search" method="post">
         <label>Rechercher un etudiant:</label>
         <input type="search" name="nom"/>
-        
     </form>
     <form action="Trier" method="post">
         <label>Trier par date</label>
         <input type="search" name="date" placeholder="année-mois-jour"/>
     </form>
+
     <button><a href="search?grade=L1">L1</a></button>
     <button><a href="search?grade=L2">L2</a></button>
     <button><a href="search?grade=L3">L3</a></button>
     <button><a href="search?grade=M1">M1</a></button>
     <button><a href="search?grade=M2">M2</a></button>
+
     <table border="1">
         <caption>
-           <?php echo "Date: ".date('d-m-Y');?>
-        </caption>
+           Date : <?php echo date('d-m-Y');?>
+    </caption>
         <tr>
-            <th>
-                Nom et prenoms
-             </th>
             <th>
                 Grade
             </th>
             <th>
+                Nom et prenoms
+             </th>
+             <th>
+                Mac Wifi
+             </th>
+             <th colspan="2">
                 Status
             </th>
         </tr>
       <?php  
       foreach($tout as $line):
-        ?>
-
-        
+       ?>
             <?php
             $grade = $line['grade'];
             $nom = $line['nom'];
             $id = $line['id'];
-            if($line['id']==="Present(e)"){
-              echo " <tr bgcolor='green'><td> $nom</td> 
-                <td>$grade </td>
-                <td>$id</td></tr>";
 
+            $in = null;   $out=null;
+           
+            if($id=="Retrait"){
+                $in="Retrait";
             }
-            else{
-                echo " <tr><td> $nom</td> 
-                  <td>$grade </td>
-                  <td>$id</td></tr>";
+            else if($id=="Remise"){
+                $in = "Retrait";
+                $out = "Remise";
+            }
+
+            $mac = $line['mac'];
+           // if($line['id']===""){
+            //   echo " <tr bgcolor='green'><td> $nom</td> 
+            //     <td>$grade </td>
+            //     <td>$id</td></tr>";
+
+          //  }
+           // else{
+            if(!empty($in)&& empty($out)){
+                echo " <tr bgcolor = 'red'> <td>$grade </td>
+                <td> $nom</td> 
+                 
+                <td>$mac</td>
+                <td>$in</td>
+                <td>$out</td>
+                </tr>";
+            }
+            else if( $in=="Retrait" && $out=="Remise" ){
+                echo " <tr bgcolor = 'green'> <td>$grade </td><td> $nom</td> 
+                 
+                <td>$mac</td>
+                <td>$in</td>
+                <td>$out</td>
+                </tr>";
+               // $in = null; $out = null;
+            }
+            else {
+                echo " <tr> <td>$grade </td><td> $nom</td> 
+                 
+                <td>$mac</td>
+                <td>$in</td>
+                <td>$out</td>
+                </tr>";
+            }
+               
   
-              }
-            ?>
+            //  }
+
+           ?>
         
         
     <?php 
         endforeach;
-    ?>
+   ?>
 
     </table>
    

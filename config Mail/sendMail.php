@@ -31,21 +31,72 @@
 		$mail->Port = 587;
 
 		$mail->setFrom('fnomenjanahary@mit-ua.mg', 'Nomenjanahary');
-		$mail->addReplyTo('mfock@mit-ua.mg', 'Fock');
+		$mail->addReplyTo('mlenepveu@mit-ua.mg', 'Manou');
 
-		$mail->addAddress('mfock@mit-ua.mg', 'Fock');
+		$mail->addAddress('mlenepveu@mit-ua.mg', 'Manou');
 
 		$mail->isHTML(true);
-		$mail->Subject = 'Test email from PHP';
+		$mail->Subject = 'Liste de presence des Etudiants';
 		
 		// Contenu du tableau
-		$tab = $tab . "<table><tr><th>Nom</th><th>Grade</th><th>Status</th></tr>";
+		$tab ="<head> <style>
+        :root {
+          --primary: #f9b8a6;
+          --muted: #f9b8a630;
+        }
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        table {
+          border-collapse: collapse;
+          width: 80%;
+          margin: 5%;
+        }
+        tr:first-child {
+          background-color: var(--primary);
+          border: var(--primary) solid 2px;
+        }
+        tr:first-child th {
+          text-align: center;
+          padding: 10px 5px;
+          font-weight: bold;
+          font-size: medium;
+        }
+        tr:nth-child(even) {
+          background: var(--muted);
+        }
+        td:first-child{
+          text-align: left;
+          padding-left: 25px;
+        }
+        td {
+          text-align: center;
+          padding: 10px 50px;
+          font-size: medium;
+        }
+        tr:not(:first-child) {
+          border-right: var(--primary) solid 2px;
+          border-left: var(--primary) solid 2px;
+        }
+        tr:nth-child(2) {
+          border-top: var(--primary) solid 2px;
+        }
+        tr:last-child {
+          border-bottom: var(--primary) solid 2px;
+        }
+        tr td {
+          padding: 20px 0px;
+        }
+      </style></head>
+		<table><tr><th>Nom</th><th>Grade</th><th>Status</th></tr>";
 		
 		echo "<table width='100%' style='border-collapse: collapse;'>";
 		echo "<tr><th>Nom</th><th>Grade</th><th>Status</th></tr>";
 		
 		foreach ($students as $student) {
-			$tab = $tab . "<tr><td>". $student['nom']. "</td><td>". $student['grade']. $student['id'] . "</td><td>". $student['statut']. "</td></tr>";
+			$tab = $tab . "<tr><td>". $student['nom']. "</td><td>". $student['grade']. "</td><td>". $student['id']. "</td></tr>";
 		}
 		
 		$tab = $tab . "</table>";
