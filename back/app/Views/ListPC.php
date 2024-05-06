@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste des etudiants</title>
+    <title>Liste des machines</title>
     <style>
         :root {
           --primary: #f9b8a6;
@@ -45,9 +45,10 @@
           background-color: var(--muted);
         }
         table {
-          border-collapse: collapse;
-          width: 80%;
-          margin: 5%;
+            border-collapse: collapse;
+            width: 80%; 
+            margin: auto;
+            margin-bottom: 5%;
         }
         tr:first-child {
           background-color: var(--primary);
@@ -87,23 +88,135 @@
         caption{
             font-size: 2vw;
         }
+        .container-grid {
+            display: flex;
+            justify-content: space-around; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+        }
+       .dashboard {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+       .statistic {
+            background-color: var(--primary);
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
+        }
+       .statistic:hover {
+            background-color: var(--muted);
+        }
+        .nav-button {
+            background-color: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            font-size: medium;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            text-decoration: none;
+        }
+        .nav-button:hover {
+            background-color: var(--muted);
+        }
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+            bottom: -15px;
+        }
+        .align{
+            align-items: center;
+        }
+        .lien{
+            text-decoration: none;
+        }
+        #all{
+            background: brown;
+        }
     </style>
 </head>
 <body>
-    <form action="search" method="post">
-        <label>Rechercher un etudiant:</label>
-        <input type="search" name="nom"/>
-    </form>
-    <form action="Trier" method="post">
-        <label>Trier par date</label>
-        <input type="search" name="date" placeholder="année-mois-jour"/>
-    </form>
+<header>
+        <nav>
+            <div class="dashboard">
+                <?php
+                    $nbrRetrait = 0;
+                    $nbrRemise = 0;
+                    $total = 0;
+                    foreach($tout as $line):
+                        $id = $line['id'];
+                        if($id=="Retrait"){
+                            $nbrRetrait++;
+                        }
+                        else if($id=="Remise"){
+                           $nbrRemise++;
+                        }
+                        $total = $line['total'];
+                    endforeach;
+               
+               ?> 
+               <a href="ListerPc/Machine" class="lien">
+                    <div class="statistic">
+                        <strong>Nombre total des machines </strong>
+                        <br>
+                        <?php echo $total; ?>
+                    </div>
+               </a>
+                <a href="recherche?statut=Retrait" class="lien">
+                    <div class="statistic">
+                        <strong>Nombre total des retraits </strong>
+                        <br>
+                        <?php echo $nbrRetrait; ?>
+                    </div>
+                </a>
+                <a href="recherche?statut=Remise" class="lien">
+                    <div class="statistic">
+                        <strong>Nombre total des remises </strong>
+                        <br>
+                        <?php echo $nbrRemise; ?>
+                </div>
+                </a>
+                
+            </div>
+        </nav>
+    </header>
 
-    <button><a href="search?grade=L1">L1</a></button>
-    <button><a href="search?grade=L2">L2</a></button>
-    <button><a href="search?grade=L3">L3</a></button>
-    <button><a href="search?grade=M1">M1</a></button>
-    <button><a href="search?grade=M2">M2</a></button>
+    <div class="container-grid">
+        <a href="recherche?grade=L1" class="nav-button">L1</a>
+        <a href="recherche?grade=L2" class="nav-button">L2</a>
+        <a href="recherche?grade=L3" class="nav-button">L3</a>
+        <a href="recherche?grade=M1" class="nav-button">M1</a>
+        <a href="recherche?grade=M2" class="nav-button">M2</a>
+        <a href="recherche?grade=all" class="nav-button" id="all">All</a>
+    </div>
+
+    <div class="flex">
+        <div>
+            <form action="recherche" method="post">
+                <div class="align">
+                    <label>Rechercher un etudiant:</label>
+                    <input type="search" name="nom"/>
+                </div>
+            </form>
+        </div>
+        <div>
+            <form action="TrierDate" method="post">
+                <div class="align">
+                    <label>Trier par date:</label>
+                    <input type="search" name="date" placeholder="année-mois-jour"/>
+                </div>
+            </form>
+        </div>
+        
+    </div>
 
     <table border="1">
         <caption>
@@ -124,9 +237,8 @@
             </th>
         </tr>
       <?php  
-      foreach($tout as $line):
-       ?>
-            <?php
+      foreach($statut as $line):
+
             $grade = $line['grade'];
             $nom = $line['nom'];
             $id = $line['id'];
@@ -142,47 +254,30 @@
             }
 
             $mac = $line['mac'];
-           // if($line['id']===""){
-            //   echo " <tr bgcolor='green'><td> $nom</td> 
-            //     <td>$grade </td>
-            //     <td>$id</td></tr>";
 
-          //  }
-           // else{
             if(!empty($in)&& empty($out)){
-                echo " <tr bgcolor = 'red'> <td>$grade </td>
+                echo " <tr style=\"background-color: purple;\"> <td>$grade </td>
                 <td> $nom</td> 
-                 
                 <td>$mac</td>
                 <td>$in</td>
                 <td>$out</td>
                 </tr>";
             }
             else if( $in=="Retrait" && $out=="Remise" ){
-                echo " <tr bgcolor = 'green'> <td>$grade </td><td> $nom</td> 
-                 
+                echo " <tr style=\"background-color: blue;\"> <td>$grade </td><td> $nom</td> 
                 <td>$mac</td>
                 <td>$in</td>
                 <td>$out</td>
                 </tr>";
-               // $in = null; $out = null;
             }
             else {
-                echo " <tr> <td>$grade </td><td> $nom</td> 
-                 
+                echo " <tr> <td>$grade </td><td> $nom</td>  
                 <td>$mac</td>
                 <td>$in</td>
                 <td>$out</td>
                 </tr>";
             }
-               
-  
-            //  }
 
-           ?>
-        
-        
-    <?php 
         endforeach;
    ?>
 

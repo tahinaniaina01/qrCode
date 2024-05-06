@@ -45,9 +45,10 @@
           background-color: var(--muted);
         }
         table {
-          border-collapse: collapse;
-          width: 80%;
-          margin: 5%;
+            border-collapse: collapse;
+            width: 80%; 
+            margin: auto;
+            margin-bottom: 5%;
         }
         tr:first-child {
           background-color: var(--primary);
@@ -87,89 +88,139 @@
         caption{
             font-size: 2vw;
         }
-        .container-grid{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap:10px;
+        .container-grid {
+            display: flex;
+            justify-content: space-around; 
+            flex-wrap: wrap; 
+            gap: 10px; 
         }
-        .content{
-            background-color: blue;
+       .dashboard {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+       .statistic {
+            background-color: var(--primary);
             padding: 20px;
-            margin: 10px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
         }
+       .statistic:hover {
+            background-color: var(--muted);
+        }
+        .nav-button {
+            background-color: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            font-size: medium;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            text-decoration: none;
+        }
+        .nav-button:hover {
+            background-color: var(--muted);
+        }
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            /* margin: 0;  */
+            margin-top: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+            bottom: -15px;
+        }
+        .align{
+            align-items: center;
+        }
+        .lien{
+            text-decoration: none;
+        }
+        #all{
+            background: brown;
+        }
+
     </style>
 </head>
 <body>
-    
     <header>
-
         <nav>
-        <?php
-            $nbrPres = 0;
-            $nbrAbs = 0;
-            $total = 0;
-            foreach($tout as $line):
-
-                $id = $line['id'];
-                if($id=="Present(e)"){
-                    $nbrPres++;
-                }
-                else{
-                   $nbrAbs++;
-                }
-                $total++;
+            <div class="dashboard">
+                <?php
+                $nbrPres = 0;
+                $nbrAbs = 0;
+                $total = 0;
             
-            endforeach;
-        ?>
-
-            <div class="container-grid">
-                <a href="Etudiant">
-                    <button>
-                        <div class="content">
-                            <div>Nombre total des etudiants</div>
-                            <div><?php echo $total;  ?></div>
-                        </div>
-                    </button>
+                foreach($tout as $line):
+                    $id = $line['id'];
+                    if($id=="Present(e)"){
+                        $nbrPres++;
+                    }
+                    else{
+                       $nbrAbs++;
+                    }
+                    $total = $line['total'];
+                endforeach;
+               ?>
+               <a href="Etudiant" class="lien">
+                    <div class="statistic">
+                        <strong>Nombre total des étudiants</strong>
+                        <br>
+                        <?php echo $total; ?>
+                    </div>
+               </a>
+                <a href="search?statut=Present(e)" class="lien">
+                    <div class="statistic">
+                        <strong>Nombre total des présents</strong>
+                        <br>
+                        <?php echo $nbrPres; ?>
+                    </div>
                 </a>
-                <a href="search?pres=Present(e)">
-                    <button>
-                        <div class="content">
-                            <div>Nombre total des presents</div>
-                            <div><?php echo $nbrPres;  ?></div>
-                        </div>
-                    </button>
+                <a href="search?statut=Absent(e)" class="lien">
+                    <div class="statistic">
+                        <strong>Nombre total des absents</strong>
+                        <br>
+                        <?php echo $nbrAbs; ?>
+                </div>
                 </a>
-                <a href="search?pres=Absent(e)">
-                    <button>
-                        <div class="content">
-                            <div>Nombre total des absents</div>
-                            <div><?php echo $nbrAbs;  ?></div>
-                        </div>
-                    </button>
-                </a>
+                
             </div>
-
         </nav>
-
-        <form action="search" method="post">
-            <label>Rechercher un etudiant:</label>
-            <input type="search" name="nom"/>
-            
-        </form>
-        <form action="Trier" method="post">
-            <label>Trier par date</label>
-            <input type="search" name="date" placeholder="année-mois-jour"/>
-        </form>
-
     </header>
 
-    <button><a href="search?grade=L1">L1</a></button>
-    <button><a href="search?grade=L2">L2</a></button>
-    <button><a href="search?grade=L3">L3</a></button>
-    <button><a href="search?grade=M1">M1</a></button>
-    <button><a href="search?grade=M2">M2</a></button>
+    <div class="container-grid">
+        <a href="search?grade=L1" class="nav-button">L1</a>
+        <a href="search?grade=L2" class="nav-button">L2</a>
+        <a href="search?grade=L3" class="nav-button">L3</a>
+        <a href="search?grade=M1" class="nav-button">M1</a>
+        <a href="search?grade=M2" class="nav-button">M2</a>
+        <a href="search?grade=all" class="nav-button" id="all">All</a>
+    </div>
 
-    <table border="1">
+    <div class="flex">
+        <div>
+            <form action="search" method="post">
+                <div class="align">
+                    <label>Rechercher un etudiant:</label>
+                    <input type="search" name="nom"/>
+                </div>
+            </form>
+        </div>
+        <div>
+            <form action="Trier" method="post">
+                <div class="align">
+                    <label>Trier par date:</label>
+                    <input type="search" name="date" placeholder="année-mois-jour"/>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
+    <table border="0.5">
         <caption>
            <?php echo "Date: ".date('d-m-Y');?>
         </caption>
@@ -185,11 +236,8 @@
             </th>
         </tr>
       <?php  
-      foreach($tout as $line):
-        ?>
-
-        
-            <?php
+      foreach($statut as $line):
+     
             $grade = $line['grade'];
             $nom = $line['nom'];
             $id = $line['id'];
@@ -206,14 +254,10 @@
                   <td>$id</td></tr>";
   
               }
-            ?>
-        
-        
-    <?php 
+    
         endforeach;
     ?>
 
     </table>
-   
 </body>
 </html>

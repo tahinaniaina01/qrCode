@@ -20,21 +20,20 @@ class Liste_pc extends Model
          $nom = [];
          foreach($pres as $line){
             $nom[] = [
+                'total' => $result->getNumRows(),
                 'nom' => $line->nom.' ' . $line->prenoms,
                 'grade' => $line->grade.$line->niveau,
                 'id' => $this->statut($line->id_machine,$tri),
                 'mac'=>$line->mac_wifi
             ];
         }
-        // foreach($nom as $n){
-        //     $data[] = $this->where('nom',$n['nom'])->where('prenoms',$n[])
-        // }
+   
         return $nom ;
     }
     public function statut($id,$tri){
         
         $query = $this->db->table('presence_pc_portable');
-        //select * from presence where date(date_presence)='2024-04-30' and id_etudiant=77;
+       
         $query->select('*');
         $query->where('id_pc_etudiant',$id);
         if(empty($tri)){
@@ -42,7 +41,6 @@ class Liste_pc extends Model
         }
         else{
             $query->where('date(date_operation)',$tri);
-          //  print_r($tri);
         }
         
         $resultat = $query->get();
@@ -50,11 +48,7 @@ class Liste_pc extends Model
         $result = $resultat->getRowArray();
         $nbr = $resultat->getNumRows();
 
-        // if(empty($result)){
-        //     return "";
-        // }
-        // else{
-           
+
             if($nbr>0){
                 if($nbr==1) {
                     return "Retrait";
@@ -65,7 +59,6 @@ class Liste_pc extends Model
                 }
             }
             return $nbr;
-     //   }
 
     }
 }
