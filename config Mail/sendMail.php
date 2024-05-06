@@ -30,10 +30,12 @@
 		$mail->SMTPSecure = 'tls';
 		$mail->Port = 587;
 
-		$mail->setFrom('fnomenjanahary@mit-ua.mg', 'Nomenjanahary');
-		$mail->addReplyTo('mlenepveu@mit-ua.mg', 'Manou');
+		$mail->setFrom('fnomenjanahary@mit-ua.mg', 'Team qrcode');
+		//$mail->addReplyTo('filamatra@mit-ua.mg', 'Mr Tahiry')
+		;
 
-		$mail->addAddress('mlenepveu@mit-ua.mg', 'Manou');
+		$mail->addAddress('filamatra@mit-ua.mg', 'Mr Tahiry');
+		//$mail->addAddress('trakotosoa@mit-ua.mg', 'Mr Tahiry');
 
 		$mail->isHTML(true);
 		$mail->Subject = 'Liste de presence des Etudiants';
@@ -54,7 +56,7 @@
           width: 80%;
           margin: 5%;
         }
-        tr:first-child {
+        tr:first-child{
           background-color: var(--primary);
           border: var(--primary) solid 2px;
         }
@@ -68,6 +70,10 @@
           background: var(--muted);
         }
         td:first-child{
+			text-align: left;
+			padding-left: 25px;
+		}
+		th:first-child{
           text-align: left;
           padding-left: 25px;
         }
@@ -96,13 +102,20 @@
 		echo "<tr><th>Nom</th><th>Grade</th><th>Status</th></tr>";
 		
 		foreach ($students as $student) {
-			$tab = $tab . "<tr><td>". $student['nom']. "</td><td>". $student['grade']. "</td><td>". $student['id']. "</td></tr>";
+			if($student['id']=="Present(e)"){
+				$tab = $tab . "<tr style=\"background-color:#6af75a;\"><td>". $student['nom']. "</td><td>". $student['grade']. "</td><td>". $student['id']. "</td></tr>";
+
+			}
+			else{
+				$tab = $tab . "<tr><td>". $student['nom']. "</td><td>". $student['grade']. "</td><td>". $student['id']. "</td></tr>";
+		
+			}
 		}
 		
 		$tab = $tab . "</table>";
 		
 		/// Corps du message
-		$mail->Body    = 'Voici la liste de presence en ce jour.' . $tab;
+		$mail->Body    = '<h2>Voici la liste de presence en ce jour: '.date('d-m-Y') .'</h2>'. $tab;
 
 		$mail->send();
 		echo "Message has been sent\n";
@@ -116,7 +129,7 @@
 			$serverName = 'localhost';
 			$username = 'mit';
 			$password = '123456';
-			$dataBase = 'mit';
+			$dataBase = 'mit1';
 		
 			$connect = new mysqli($serverName, $username, $password, $dataBase);
 		

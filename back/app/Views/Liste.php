@@ -87,23 +87,88 @@
         caption{
             font-size: 2vw;
         }
+        .container-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap:10px;
+        }
+        .content{
+            background-color: blue;
+            padding: 20px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
-    <form action="search" method="post">
-        <label>Rechercher un etudiant:</label>
-        <input type="search" name="nom"/>
-        
-    </form>
-    <form action="Trier" method="post">
-        <label>Trier par date</label>
-        <input type="search" name="date" placeholder="année-mois-jour"/>
-    </form>
+    
+    <header>
+
+        <nav>
+        <?php
+            $nbrPres = 0;
+            $nbrAbs = 0;
+            $total = 0;
+            foreach($tout as $line):
+
+                $id = $line['id'];
+                if($id=="Present(e)"){
+                    $nbrPres++;
+                }
+                else{
+                   $nbrAbs++;
+                }
+                $total++;
+            
+            endforeach;
+        ?>
+
+            <div class="container-grid">
+                <a href="Etudiant">
+                    <button>
+                        <div class="content">
+                            <div>Nombre total des etudiants</div>
+                            <div><?php echo $total;  ?></div>
+                        </div>
+                    </button>
+                </a>
+                <a href="search?pres=Present(e)">
+                    <button>
+                        <div class="content">
+                            <div>Nombre total des presents</div>
+                            <div><?php echo $nbrPres;  ?></div>
+                        </div>
+                    </button>
+                </a>
+                <a href="search?pres=Absent(e)">
+                    <button>
+                        <div class="content">
+                            <div>Nombre total des absents</div>
+                            <div><?php echo $nbrAbs;  ?></div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+
+        </nav>
+
+        <form action="search" method="post">
+            <label>Rechercher un etudiant:</label>
+            <input type="search" name="nom"/>
+            
+        </form>
+        <form action="Trier" method="post">
+            <label>Trier par date</label>
+            <input type="search" name="date" placeholder="année-mois-jour"/>
+        </form>
+
+    </header>
+
     <button><a href="search?grade=L1">L1</a></button>
     <button><a href="search?grade=L2">L2</a></button>
     <button><a href="search?grade=L3">L3</a></button>
     <button><a href="search?grade=M1">M1</a></button>
     <button><a href="search?grade=M2">M2</a></button>
+
     <table border="1">
         <caption>
            <?php echo "Date: ".date('d-m-Y');?>
@@ -128,8 +193,9 @@
             $grade = $line['grade'];
             $nom = $line['nom'];
             $id = $line['id'];
-            if($line['id']==="Present(e)"){
-              echo " <tr bgcolor='green'><td> $nom</td> 
+
+            if($id=="Present(e)"){
+              echo " <tr style=\"background-color:green;\"><td> $nom</td> 
                 <td>$grade </td>
                 <td>$id</td></tr>";
 
