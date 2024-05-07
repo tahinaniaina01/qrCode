@@ -197,12 +197,12 @@
         <a href="search?grade=L3" class="nav-button">L3</a>
         <a href="search?grade=M1" class="nav-button">M1</a>
         <a href="search?grade=M2" class="nav-button">M2</a>
-        <a href="search?grade=all" class="nav-button" id="all">All</a>
+        <a href="search?grade=Restaurer" class="nav-button" id="all">Restaurer</a>
     </div>
 
     <div class="flex">
         <div>
-            <form action="search" method="post">
+            <form action="search" method="get">
                 <div class="align">
                     <label>Rechercher un etudiant:</label>
                     <input type="search" name="nom"/>
@@ -210,7 +210,7 @@
             </form>
         </div>
         <div>
-            <form action="Trier" method="post">
+            <form action="Trier" method="get">
                 <div class="align">
                     <label>Trier par date:</label>
                     <input type="search" name="date" placeholder="année-mois-jour"/>

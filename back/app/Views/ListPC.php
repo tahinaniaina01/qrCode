@@ -163,7 +163,7 @@
                     endforeach;
                
                ?> 
-               <a href="ListerPc/Machine" class="lien">
+               <a href="https://codeigniter.frame/index.php/ListerPc/Machine" class="lien">
                     <div class="statistic">
                         <strong>Nombre total des machines </strong>
                         <br>
@@ -195,20 +195,21 @@
         <a href="recherche?grade=L3" class="nav-button">L3</a>
         <a href="recherche?grade=M1" class="nav-button">M1</a>
         <a href="recherche?grade=M2" class="nav-button">M2</a>
-        <a href="recherche?grade=all" class="nav-button" id="all">All</a>
+        <a href="recherche?grade=All" class="nav-button" id="all">Restaurer</a>
     </div>
 
     <div class="flex">
         <div>
-            <form action="recherche" method="post">
+            <form action="recherche" method="get">
                 <div class="align">
                     <label>Rechercher un etudiant:</label>
                     <input type="search" name="nom"/>
+                    
                 </div>
             </form>
         </div>
         <div>
-            <form action="TrierDate" method="post">
+            <form action="TrierDate" method="get">
                 <div class="align">
                     <label>Trier par date:</label>
                     <input type="search" name="date" placeholder="année-mois-jour"/>

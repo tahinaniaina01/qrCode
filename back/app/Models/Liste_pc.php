@@ -58,7 +58,6 @@ class Liste_pc extends Model
                     return "";
                 }
             }
-            return $nbr;
-
+        return "null";
     }
 }

@@ -6,13 +6,9 @@ use App\Models\Liste_pc;
 
 class ListerPc extends BaseController
 {
-    public function index(): string
+    public function index()
     {
-        $list = new Liste_pc();
-        $reponse['tout'] = $list->List("");
-        $reponse['statut'] = $list->List("");
-
-        return view('ListPC',$reponse);
+        return redirect()->to('ListerPc/Machine');
     }
 
     public function Machine()
@@ -38,10 +34,11 @@ class ListerPc extends BaseController
             $recherche = "";
             $position = "";
 
-            if($grade=="all"){
+            if($grade=="All"){
                 $grade = "";
                 $cherche = "";
-                $statut = "";
+                $statut = "null";
+                
             }
 
             // Avoir les données dans les variables de session dont nom si il y eu recherche, grade et le statut

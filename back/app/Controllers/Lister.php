@@ -6,18 +6,16 @@ use App\Models\Liste_etudiant;
 class Lister extends BaseController
 {
     
-    public function index(): string
+    public function index()
     {
-        $list = new Liste_etudiant();
-        $reponse['tout'] = $list->List("");
-
-        return view('Liste',$reponse);
+        return redirect()->to('Lister/Etudiant');
     }
 
     public function Etudiant()
     {
         $list = new Liste_etudiant();
         $reponse['tout'] = $list->List("");
+        $reponse['statut'] = $list->List("");
 
         return view('Liste',$reponse);
     }
@@ -39,7 +37,7 @@ class Lister extends BaseController
         $recherche = "";
         $position = "";
 
-        if($grade=="all"){
+        if($grade=="Restaurer"){
             $grade = "";
             $cherche = "";
             $statut = "";
