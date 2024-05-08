@@ -101,8 +101,8 @@
 		
 		foreach ($students as $student) {
 			if($student['id']=="Absent(e)"){
-				if($student['grade']=="L1"){
-					$tab = $tab . "<tr style=\"background-color:#6af75a;\"><td>". $student['nom']. "</td><td>". $student['grade']. "</td><td>". $student['id']. "</td></tr>";
+				if($student['grade']=="L3"){
+					$tab = $tab . "<tr><td>". $student['nom']. "</td><td>". $student['grade']. "</td></tr>";
 				}
 			}
 		}
@@ -110,15 +110,15 @@
 		$tab = $tab . "</table>";
 
 
-		$filePath = 'L1.html';
+		$filePath = 'L3.html';
 		file_put_contents($filePath, $tab);
 
 		$tab="<table><tr><th>Nom</th><th>Grade</th><th>Status</th></tr>";
 
 		foreach ($students as $student) {
 			if($student['id']=="Present(e)"){
-				if($student['grade']=="L1"){
-					$tab = $tab . "<tr style=\"background-color:#6af75a;\"><td>". $student['nom']. "</td><td>". $student['grade']. "</td><td>". $student['id']. "</td></tr>";
+				if($student['grade']=="L3"){
+					$tab = $tab . "<tr ><td>". $student['nom']. "</td><td>". $student['grade']. "</td></tr>";
 				}
 			}
 		}
@@ -127,7 +127,7 @@
 		file_put_contents($filePath, $tab, FILE_APPEND);
 	
 		$wk = '/usr/bin/wkhtmltopdf';
-		$pdf = 'L1.pdf';
+		$pdf = 'L3.pdf';
 		$com = "$wk --encoding UTF-8 $filePath $pdf";
 		
 		exec($com,$output, $returnVar);
@@ -139,7 +139,7 @@
     	}
 		
 		/// Corps du message
-		$mail->Body    = 'Voici l eregistre de presence en ce jour: '.date('d-m-Y');
+		$mail->Body    = 'Voici le registre de presence des éléves de L3 en ce jour: '.date('d-m-Y');
 		$mail->addAttachment($pdf);
 
 		$mail->send();
